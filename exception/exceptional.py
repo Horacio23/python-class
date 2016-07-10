@@ -7,5 +7,5 @@ def convert(s):
         x = int(s)
         print("Conversion succeeded! x =",x)
     except (ValueError, TypeError):
-        print("Conversion failed!")
+        pass
     return x
